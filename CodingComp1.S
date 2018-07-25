@@ -30,7 +30,7 @@ OSOff:
 	move.w #$8680,DMACON(a6) 
 	move.l #Copper,COP1LC(a6)
 
-	move.w #$0f85,d5	;colour 1
+	move.w #$0123,d5	;colour 1
 	move.w #$0f74,d6	;colour 2
 	move.w d6,d1
 	
